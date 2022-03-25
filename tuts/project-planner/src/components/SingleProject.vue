@@ -5,7 +5,7 @@
     <div class="icons">
       <span class="material-icons">edit</span>
       <span class="material-icons" @click="deleteProject">delete</span>
-      <span class="material-icons" @click="toggleComplete">done</span>
+      <span class="material-icons tick" @click="toggleComplete">done</span>
     </div>
   </div>
   <div v-if="showDetails" class="details">
@@ -83,5 +83,9 @@ export default {
 
    .project.complete {
      border-left: 4px solid green;
+   }
+
+   .project.complete .tick {
+     color: green;
    }
 </style>
