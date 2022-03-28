@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "title": "Create new homepage banner",
+      "title": "Create new homepage banner2",
       "details": "Lorem ipsum",
       "complete": false
     },
@@ -11,6 +11,12 @@
       "title": "Make marketing email",
       "details": "Lorem ipsum",
       "complete": true
+    },
+    {
+      "title": "fdsf",
+      "details": "fdsfsf",
+      "complete": false,
+      "id": 3
     }
   ]
 }

@@ -3,7 +3,8 @@
   <div class="actions">
     <h3 @click="toggleDetails">{{ project.title }}</h3>
     <div class="icons">
-      <span class="material-icons">edit</span>
+      
+      <router-link :to="'/editproject/' + project.id"><span class="material-icons">edit</span></router-link>
       <span class="material-icons" @click="deleteProject">delete</span>
       <span class="material-icons tick" @click="toggleComplete">done</span>
     </div>
